@@ -38,9 +38,36 @@
             font-weight: 700;
             box-shadow: 5px 5px 5px gray;
         }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a {
+            color: black;
+            font-size: 2em;
+            margin-right: 40px;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</i></a>
+                <a href="">Products</a>
+                <a href="">Order Us</i></a>
+                <a href="">About Us</i></a>
+            </span>
+
+            <span>
+                <a href="" title="User"><i class="fa-solid fa-user"></i></a>
+                <a href="" title="Sign Out"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+            </span>
+        </nav>
+    </header>
+
     <section class="login-container">
         <form action="" class="login-form">
             <h2 style="text-align: center;">LogIn</h2>
