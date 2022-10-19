@@ -15,9 +15,10 @@
             height: 500px;
             display: grid;
             grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: 2em repeat(5, 1fr);
             grid-gap: 1em;
         }
-        .date {
+        .date, .day {
             box-shadow: 5px 5px 5px lightgray;
             background-color: lightslategray;
             justify-content: center;
@@ -27,13 +28,8 @@
             display: flex;
         }
         .day {
-            box-shadow: 5px 5px 5px lightgray;
-            background-color: lightgray;
-            justify-content: center;
-            align-items: center;
-            border-radius: 5px;
             font-size: 1.5em;
-            display: flex;
+            background-color: lightgray;
         }
         .other-month {
             background-color: lightgray;
